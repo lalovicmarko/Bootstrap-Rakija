@@ -1,0 +1,480 @@
+body{
+  background-color:#efefef;
+  color:#0a1622;
+  background:url(../../assets/img/patern.png) repeat;
+  font-family:'Sarala';
+}
+
+@media (max-width:800px) {
+  h1#Slogan{
+    margin-top:13px;
+    font-size:30px;
+  }
+}
+
+.row{
+  margin-left:0px;
+  margin-right:0px;
+}
+
+img#logo{
+  margin-top:7px;
+}
+
+ul.nav.nav-tabs.nav-justified{
+  color:#fbfbfb;
+  background-color:#203952;
+  font-size:18px;
+}
+
+a{
+  color:rgb(255,255,255);
+}
+
+.container{
+  margin-right:auto;
+  margin-left:auto;
+}
+
+@media (max-width:767px) {
+  div#main{
+    width:100%;
+    padding:10px;
+  }
+}
+
+@media (max-width:767px) {
+  div#side{
+    width:100%;
+    padding:10px;
+  }
+}
+
+@media (min-width:768px) {
+  div#main{
+    width:70%;
+    height:100%;
+    padding-left:25px;
+    padding-right:25px;
+    float:left;
+  }
+}
+
+@media (min-width:768px) {
+  div#mainkontakt{
+    width:30%;
+    max-width:30%;
+    height:100%;
+    padding-left:25px;
+    padding-right:25px;
+    float:left;
+  }
+}
+
+@media (max-width:768px) {
+  div#mainkontakt{
+    width:100%;
+    padding-left:13px;
+    padding-right:13px;
+  }
+}
+
+p.vest{
+  text-align:justify;
+  font-size:medium;
+}
+
+@media (min-width:768px) {
+  div#side{
+    width:30%;
+    float:left;
+    padding:10px;
+  }
+}
+
+@media (min-width:768px) {
+  div#mapakontakt2{
+    width:70%;
+    max-width:70%;
+    height:500px;
+    float:right;
+    padding:15px;
+  }
+}
+
+@media (max-width:768px) {
+  div#mapakontakt2{
+    width:100%;
+    height:500px;
+    padding:15px;
+  }
+}
+
+div#mapakontakt{
+  width:70%;
+  max-width:70%;
+  height:500px;
+  float:right;
+  border-left:thin solid;
+}
+
+div#sadrzaj.container{
+  width:100%;
+  padding:0px;
+}
+
+img#slikauvest1.img-rounded{
+  float:right;
+  padding-top:5px;
+  padding-left:5px;
+}
+
+img#slikavest1.img-rounded{
+  float:left;
+  margin-top:5px;
+  margin-right:10px;
+  border-radius:15px;
+  border:4px solid #235689;
+}
+
+img#slikavestt.img-rounded{
+}
+
+img#profil.img-rounded{
+  float:left;
+  width:183px;
+  padding-top:6px;
+  padding-left:7px;
+  margin-right:7px;
+}
+
+img#slikavesttt.img-rounded{
+  float:right;
+  padding-top:3px;
+  padding-left:5px;
+  margin-right:-102px;
+}
+
+img#slikaizvest3.img-rounded{
+  float:left;
+  padding-top:6px;
+  margin-right:10px;
+  width:250px;
+  border-radius:15px;
+  border:4px solid #235689;
+}
+
+img#slikavest3.img-rounded{
+  padding-top:6px;
+  margin-right:10px;
+  margin-bottom:10px;
+  width:80%;
+  border-radius:15px;
+  border:5px solid #235689;
+}
+
+div#kontaktindex{
+  width:100%;
+  height:35px;
+  background-color:#235689;
+  color:rgb(254,250,250);
+  border:2px solid rgb(32,57,82);
+  border-radius:15px;
+}
+
+p#kontaktindextext.text-center{
+  padding-top:2px;
+  font-size:20px;
+}
+
+div#kontaktside{
+  border:thin solid rgba(0,0,0,0.08);
+  margin-top:0PX;
+  background-color:rgba(255,255,255,0.55);
+  border-radius:15px;
+}
+
+p.kontaktindexsadrzaj{
+  margin-top:-9px;
+  font-size:16px;
+}
+
+p#makedonska.text-center.kontaktindexsadrzaj{
+  padding-top:25px;
+}
+
+div#sidemapa{
+  width:100%;
+  height:100%;
+}
+
+div.vest{
+  height:33%;
+  min-height:250px;
+  margin-bottom:10px;
+}
+
+div.profilidiv{
+}
+
+a.opsirnije{
+  float:right;
+  color:#ffffff;
+  background-color:#235689;
+  border-radius:3px;
+  padding:3px;
+  border:thin solid rgb(252,252,252);
+  padding-right:6px;
+}
+
+a.profiliopsirno{
+  color:#fefafa;
+  background-color:#235689;
+  border-radius:3px;
+  padding-right:4px;
+  padding-left:2px;
+  border:1px solid black;
+}
+
+header{
+  background-color:#235689;
+  color:white;
+}
+
+h1#nasiproizvodi{
+  padding-left:14px;
+}
+
+div#rakije.row{
+  padding-top:10px;
+}
+
+input#poruka{
+  height:120px;
+  width:100%;
+}
+
+input{
+  color:rgb(0,0,0);
+  width:100%;
+  text-align:center;
+}
+
+div#posaljinam.vest{
+  padding-bottom:40px;
+  padding-left:5px;
+  padding-right:5px;
+  border:thin solid;
+  background-color:#235689;
+  color:white;
+  border-radius:10px;
+}
+
+button#kupi.btn.btn-default{
+  margin-top:-65px;
+}
+
+div#kupidiv{
+  width:100%;
+  font-size:large;
+  padding-top:10%;
+  display:table;
+  vertical-align:middle;
+}
+
+@media (max-width:991px) {
+  div#kupidiv.direktor{
+    width:100%;
+    font-size:large;
+    padding-top:4%;
+    display:table;
+    vertical-align:middle;
+  }
+}
+
+@media (max-width:991px) {
+  div#kupidiv{
+    width:100%;
+    font-size:large;
+    padding-top:4%;
+    display:table;
+    vertical-align:middle;
+  }
+}
+
+div#kupidiv3{
+  float:right;
+  margin-top:238px;
+  padding-left:35px;
+}
+
+@media (min-width:768px) {
+  div.podaci{
+    margin-top:17%;
+    float:left;
+  }
+}
+
+p.aaa{
+  padding-top:2px;
+  margin-top:3px;
+}
+
+h1.naslovvest{
+}
+
+div#vest3.vest{
+  padding-top:10px;
+}
+
+div#kupidiv2{
+  width:50%;
+  float:right;
+}
+
+div#kupidiv1{
+  float:left;
+  margin-top:1%;
+}
+
+button#dugmekupi.btn.btn-default{
+  float:right;
+  margin-top:8px;
+}
+
+div#slikaicena{
+  height:30%;
+}
+
+@media (min-width:767px) {
+  h1#Slogan.text-center{
+    margin-top:33px;
+  }
+}
+
+img#slikavestt.img-rounded{
+  width:100%;
+  padding-bottom:5px;
+}
+
+div#cenakolicina.col-md-6{
+}
+
+div#rakijee.vest{
+  padding-bottom:25px;
+}
+
+hr#hr{
+  margin-top:20px;
+}
+
+button#posalji.btn.btn-default{
+  float:right;
+}
+
+input#cekboxx{
+  float:left;
+  width:38px;
+  margin-top:7px;
+}
+
+p#poruke{
+  width:35%;
+  float:left;
+  font-size:14px;
+  padding-top:2px;
+}
+
+p#kontaktforma.aaa{
+  font-size:23px;
+}
+
+div#porukeidugme{
+  padding-top:7px;
+}
+
+img.img-rounded.profilnaslikatim{
+  width:75%;
+  min-width:170px;
+  border:6px solid #235689;
+}
+
+div#kupidiv1.prodilpozicija{
+  font-size:20px;
+}
+
+div.profili.row{
+  padding-bottom:10px;
+  border-bottom:thin solid #235689;
+}
+
+@media (min-width:1199px) {
+  div#kupidiv.direktor{
+    padding-top:7%;
+  }
+}
+
+a:focus, a:hover{
+  color:#000000;
+}
+
+p.opisproizvoda{
+  font-size:16px;
+  margin-top:-10px;
+}
+
+p#topopis.opisproizvoda{
+  padding-top:9px;
+}
+
+div.opisproizvodaa{
+  width:100%;
+}
+
+div#gornjecenakolicina{
+  height:86px;
+}
+
+img#slikaizvesti1{
+  width:80%;
+  border-radius:30px;
+  margin-top:5px;
+  margin-bottom:25px;
+  border:5px solid #235689;
+}
+
+.thumbnail{
+  display:block;
+  padding:4px;
+  margin-bottom:20px;
+  line-height:1.42857143;
+  background-color:#235689;
+  border:1px solid #999999;
+  border-radius:4px;
+  -webkit-transition:border .2s ease-in-out;
+  color:white;
+}
+
+div.thumbnail.likovi{
+  margin-top:29px;
+}
+
+h3{
+  margin-top:45px;
+}
+
+h3.proizvodih3{
+  margin-top:15px;
+  color:white;
+}
+
+a:focus, a:hover{
+  color:#070707;
+  background-color:rgba(120,120,120,0.22);
+  text-decoration:none;
+}
+
+iframe{
+  border-radius:15px;
+}
+
